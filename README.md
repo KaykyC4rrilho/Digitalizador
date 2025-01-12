@@ -49,8 +49,13 @@ Este projeto é uma aplicação desenvolvida em Python com a biblioteca Tkinter,
 
 1. Certifique-se de ter o Python instalado em seu sistema.
 2. Clone este repositório:
+3. Criar um ambiente virtual:
+4. Ativar o ambiente virtual:
 
  ```bash
- git clone <URL-do-repositório>
+
+git clone <URL-do-repositório>
 cd <nome-do-diretorio>
+python -m venv venv
+source venv/bin/activate
 python <nome-do-script>.py
